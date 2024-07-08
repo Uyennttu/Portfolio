@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- box icons link --->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- remix icons link --->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <!-- box icons link --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--header-->
+    <header>       
+        <nav>
+            <img src="images/logo.png" class="logo" id="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>               
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </nav>
+    
+    <!--hero-->
+        <div class="content">
+            <div class="details">
+                <h1>Hi, I'm Uyen Ng<span>uyen</span></h1>
+                <p>I am a dedicated <span><strong>Cyber Security</span></strong> graduate with a passion 
+                    <br> for <span><strong>Web Development</span></strong>. I am committed to protecting digital assets 
+                    <br> and ensuring secure online environments. Alongside my core expertise, 
+                    <br> I am driven by a keen interest in creating user-friendly and secure web applications. 
+                    <br> Aiming to become a professional Devops Engineer, I am eager to contribute 
+                    <br> to innovative projects, ready to bring my knowledge and enthusiasm to 
+                    <br> a dynamic team in the tech industry.
+                </p>
+            <a href="docs/Uyen_Nguyen_CV.pdf" download="Uyen_Nguyen_CV.pdf">DOWNLOAD CV</a>
+            </div>
+
+            <div class="images">
+                <img src="images/profile.png">            
+            </div>
+        </div>
+    </header>
+
+    <!--skills-->
+    <section class="about" id="about">
+        <div class="text">
+            <h1>My <span>Skills</span></h1>
+        </div>
+
+        <div class="exp-area">
+            <p class="exp">
+                <span>Programming Languages:</span>
+                Python, Java</p>
+
+            <p class="exp">
+                <span>Databases:</span>                
+                MongoDB, MySQL</p>
+
+            <p class="exp">
+                <span>Frameworks:</span>                
+                Metasploit</p>
+
+            <p class="exp">
+                <span>Forensic Tools:</span>
+                Sleuth Kit, Wireshark, Network Miner, Volatility</p>
+
+            <p class="exp">
+                <span>Cloud Services:</span>
+                Microsoft Azure, AWS</p>
+
+            <p class="exp">
+                <span>Other Technologies:</span>
+                Docker, Github, ZAP</p>
+
+            <p class="exp">
+                <span>Networking:</span>
+                OSI Model, Troubleshooting, Subnets, Routing</p>
+
+            <p class="exp">
+                <span>Operating Systems:</span>
+                Windows, Linux</p>
+        </div>
+    </section>
+
+    <!--projects-->
+    <section class="projects" id="projects">
+        <div class="center-text">
+            <h1>My <span>Projects</span></h1>
+        </div>
+
+        <div class="projects-content">
+            <div class="box">
+                <img src="images/privacy.png">
+                <h3>Privacy Impact Assessment (PIA)</h3>
+                <p>Undertook privacy impact analysis and compliance check for a
+                    selected company, as well as privacy management, including addressing potential privacy risks, and
+                    existing controls.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/digital-forensics.jpg">
+                <h3>Digital Forensics</h3>
+                <p>Utilised diverse forensic tools, including Sleuth Kit, Wireshark, Network miner, 
+                    and Volatility to successfully extract data from various devices and maintained 
+                    data integrity during the collection and analysis process.                                     
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/secops.jpg">
+                <h3>Secure Development Operations</h3>
+                <p>Deployed a web application efficiently by utilising Docker and 
+                    Kubernetes, as well as identified and addressed vulnerabilities in Java code 
+                    snippets through a combination of automated and manual testing using the ZAP tool.                                                            
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="images/firewall.jpg">
+                <h3>Offensive Network Security</h3>
+                <p>Utilised advanced techniques rooted in the MITRE ATT&CK 
+                    (Adversarial Tactics, Techniques, and Common Knowledge) framework to understand, 
+                    simulate, and defend against sophisticated cyber threats.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!--education-->
+    <section class="education" id="education">
+        <div class="edu-text">
+            <h1><span>Education</span></h1>
+        </div>
+
+        <div class="degrees">
+            <div class="griffith">
+                <img src="images/Griffith-University.png">
+            </div>
+
+            <div class="uni">       
+                <h3>Master of Cyber Security</h3>  
+                <p><i>July 2022 - July 2024</i>             
+                    <br>GPA: 6.44/7
+                    <br>Developed the skills to generate and 
+                    <br>implement innovative cyber security  
+                    <br>solutions for business, government 
+                    <br>and individuals.</p>
+            </div>
+
+            <div class="uni">           
+                <h3>Graduate Certificate in Blockchain Technology</h3>
+                <p><i></i>July 2022 - July 2023</i>
+                    <br>Gained the foundation and insight 
+                    <br>for the industrial applications of blockchain 
+                    <br>technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="contact" id="contact">
+        <div class="center-text">
+            <h1>Contact<span> Me</span></h1>
+        </div>
+
+        <div class="social">
+            <a href="tel:+61405080400"><i class="ri-phone-fill"></i></a>
+            <a href="mailto:ozuyen.nguyen@gmail.com"><i class="ri-mail-fill"></i></a>
+            <a href="https://www.linkedin.com/in/uyen-nguyen-ict" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+        </div>
+    </section>
+    
+    <div class="copyright">
+        <p>© 2024 Uyen Nguyen. All rights reserved.</p>
+    </div>  
+
+    <!--js link-->
+    <script src="script.js"></script>
+</body>
+</html>
